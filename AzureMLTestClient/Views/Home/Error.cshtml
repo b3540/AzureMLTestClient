@@ -1,0 +1,21 @@
+﻿<div class="row">
+    <h2>Error</h2>
+</div>
+
+<div class="row">
+    <div class="col s12">
+        <div class="card">
+            <div class="card-content">
+                <p>The request failed with status code: @Model.response.StatusCode</p>
+                <p style="white-space:pre-wrap;">@Model.response.Headers</p>
+                <p style="white-space:pre-wrap;">@Model.responseContent)</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col s12">
+        <a href="~/" class="btn">BACK</a>
+    </div>
+</div>
